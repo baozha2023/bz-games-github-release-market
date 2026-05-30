@@ -3,15 +3,9 @@
 为 [bz-games](https://github.com/baozha2023/bz-games) 游戏平台收录通过 GitHub Releases 分发的 Windows 游戏索引仓库。
 
 本市场专注于收录已在 GitHub 上发布 Release 并打包好 `.zip` 游戏文件的 Windows 游戏。平台在下载时会通过 GitHub REST API
-自动获取 Release Asset 的 `digest`（SHA256）和 `size`，**无需手动计算哈希值和文件大小**。
-
-## 与第三方市场的区别
-
-| 特性            | 本市场 (GitHub Release) | 第三方市场                   |
-|---------------|----------------------|-------------------------|
-| 下载源           | GitHub Releases 直链   | GitHub 仓库 Archive / CDN |
-| sha256 / size | 自动获取，可省略             | 非 GitHub URL 时必填        |
-| 游戏类型          | Windows 原生游戏（.exe）   | 以网页游戏为主                 |
+自动获取 Release Asset 的 `size`。`sha256` 是否可用取决于 GitHub 是否在上传时提供了 `digest`（仅 GitHub Actions 上传的
+asset
+会包含此字段），缺失 `sha256` 不影响正常下载使用，仅跳过完整性校验。
 
 ## 如何添加新游戏
 
@@ -41,7 +35,7 @@
    ```
 
     - **`downloadUrl`**：必须为 GitHub Releases 直链（格式
-      `https://github.com/{owner}/{repo}/releases/download/{tag}/{asset}`），平台自动获取 `sha256` 和 `size`
+      `https://github.com/{owner}/{repo}/releases/download/{tag}/{asset}`），平台自动获取 `size`，`sha256` 可选
     - **`gameManifest`**：由于 GitHub 上的游戏压缩包通常不含 `game.json`，需要通过此字段指定入口文件和其他清单信息
 4. 提交 Pull Request
 
@@ -50,14 +44,6 @@
 `market.json` 字段填写规范、`gameManifest` 配置说明及完整字段列表详见官方仓库 README：
 
 > **[bz-games-market/README.md](https://github.com/baozha2023/bz-games-market/blob/master/README.md)**
-
-关键规则摘要：
-
-- **GitHub Releases 自动校验**：`downloadUrl` 为 GitHub Releases 直链时，`sha256` 和 `size` 可省略，平台自动从 GitHub API
-  获取
-- **`gameManifest`**：若压缩包内无 `game.json`，必须在对应版本的 `gameManifest` 字段中至少配置 `entry`（入口文件），其余字段（
-  `name`、`author`、`type` 等）自动从 Market Game 层级继承
-- **平台版本兼容**：`platformVersion` 使用 `semver` 语法，如 `>=2.1.5`
 
 ## 版权说明
 

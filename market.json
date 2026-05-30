@@ -88,7 +88,7 @@
           "version": "2.4.0",
           "description": "经典俯视角射击游戏移植版 — 支持单人和多人合作，像素风格快节奏战斗！",
           "platformVersion": ">=2.1.5",
-          "downloadUrl": "https://github.com/cxong/cdogs-sdl/releases/download/v2.4.0/C-Dogs.SDL-2.4.0-win32.zip",
+          "downloadUrl": "https://github.com/cxong/cdogs-sdl/releases/download/2.4.0/C-Dogs.SDL-2.4.0-win32.zip",
           "publishedAt": "2024-12-15T00:00:00.000Z",
           "gameManifest": {
             "entry": "cdogs-sdl.exe",
@@ -118,7 +118,7 @@
           "version": "0.58.0",
           "description": "Liero 经典复刻 — 实时百战天虫式 2D 射击，支持本地/在线多人混战！",
           "platformVersion": ">=2.1.5",
-          "downloadUrl": "https://github.com/albertz/openlierox/releases/download/v0.58_rc5/OpenLieroX_0.58_rc5.win32.zip",
+          "downloadUrl": "https://github.com/openlierox/openlierox/releases/download/0.58_rc5/OpenLieroX_0.58_rc5.win32.zip",
           "publishedAt": "2015-07-28T00:00:00.000Z",
           "gameManifest": {
             "entry": "OpenLieroX.exe",
