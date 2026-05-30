@@ -91,7 +91,7 @@
           "downloadUrl": "https://github.com/cxong/cdogs-sdl/releases/download/2.4.0/C-Dogs.SDL-2.4.0-win32.zip",
           "publishedAt": "2024-12-15T00:00:00.000Z",
           "gameManifest": {
-            "entry": "cdogs-sdl.exe",
+            "entry": "bin/cdogs-sdl.exe",
             "type": "singleplayer"
           }
         }
@@ -241,36 +241,6 @@
           "publishedAt": "2020-03-15T00:00:00.000Z",
           "gameManifest": {
             "entry": "WitchBlast.exe",
-            "type": "singleplayer"
-          }
-        }
-      ]
-    },
-    {
-      "id": "com.bzgr.freedoom",
-      "name": "Freedoom",
-      "author": "Freedoom Project",
-      "author_url": "https://github.com/freedoom",
-      "type": "singleplayer",
-      "summary": "完全自由的 Doom 替代品 — 免费开源 FPS，包含完整关卡、音效和纹理，无需额外文件！",
-      "tags": [
-        "FPS",
-        "射击",
-        "经典",
-        "Doom"
-      ],
-      "featured": true,
-      "visibility": "public",
-      "latestVersion": "0.13.0",
-      "versions": [
-        {
-          "version": "0.13.0",
-          "description": "完全自由的 Doom 替代品 — 免费开源 FPS，包含完整关卡、音效和纹理，无需额外文件！",
-          "platformVersion": ">=2.1.5",
-          "downloadUrl": "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip",
-          "publishedAt": "2024-01-27T00:00:00.000Z",
-          "gameManifest": {
-            "entry": "freedoom.exe",
             "type": "singleplayer"
           }
         }
@@ -454,7 +424,7 @@
           "downloadUrl": "https://github.com/crawl/crawl/releases/download/0.34.1/dcss-0.34.1-win32-tiles.zip",
           "publishedAt": "2025-12-15T00:00:00.000Z",
           "gameManifest": {
-            "entry": "crawl-tiles.exe",
+            "entry": "crawl.exe",
             "type": "singleplayer"
           }
         }
@@ -575,7 +545,7 @@
           "downloadUrl": "https://github.com/minetest/minetest/releases/download/5.16.1/luanti-5.16.1-win64.zip",
           "publishedAt": "2026-04-15T00:00:00.000Z",
           "gameManifest": {
-            "entry": "luanti.exe",
+            "entry": "bin/luanti.exe",
             "type": "singleplayer"
           }
         }
@@ -606,37 +576,6 @@
           "publishedAt": "2026-02-01T00:00:00.000Z",
           "gameManifest": {
             "entry": "Terasology.exe",
-            "type": "singleplayer"
-          }
-        }
-      ]
-    },
-    {
-      "id": "com.bzgr.megaglest",
-      "name": "MegaGlest",
-      "author": "MegaGlest Team",
-      "author_url": "https://github.com/MegaGlest",
-      "type": "singleplayer",
-      "summary": "开源 3D RTS — 建造基地、采集资源、训练军队，支持单机战役和多人对战！",
-      "tags": [
-        "RTS",
-        "策略",
-        "3D",
-        "多人",
-        "建造"
-      ],
-      "featured": true,
-      "visibility": "public",
-      "latestVersion": "0.1.0",
-      "versions": [
-        {
-          "version": "0.1.0",
-          "description": "开源 3D RTS — 建造基地、采集资源、训练军队，支持单机战役和多人对战！",
-          "platformVersion": ">=2.1.5",
-          "downloadUrl": "https://github.com/MegaGlest/megaglest-source/releases/download/snapshot/megaglest-x64-windows.zip",
-          "publishedAt": "2024-12-01T00:00:00.000Z",
-          "gameManifest": {
-            "entry": "megaglest.exe",
             "type": "singleplayer"
           }
         }
@@ -787,37 +726,6 @@
           "publishedAt": "2018-06-15T00:00:00.000Z",
           "gameManifest": {
             "entry": "freeablo.exe",
-            "type": "singleplayer"
-          }
-        }
-      ]
-    },
-    {
-      "id": "com.bzgr.nethack",
-      "name": "NetHack",
-      "author": "The NetHack DevTeam",
-      "author_url": "https://github.com/NetHack",
-      "type": "singleplayer",
-      "summary": "史上最经典的 Roguelike 地牢探索 — 深入地下城寻找 Yendor 护符，献给神祇以求不朽！",
-      "tags": [
-        "Roguelike",
-        "地牢",
-        "经典",
-        "RPG",
-        "回合制"
-      ],
-      "featured": true,
-      "visibility": "public",
-      "latestVersion": "3.6.6",
-      "versions": [
-        {
-          "version": "3.6.6",
-          "description": "传世 Roguelike 经典 — 1987 年诞生至今，无尽的地牢深度、上千种物品与怪物，硬核策略回合制冒险！",
-          "platformVersion": ">=2.1.5",
-          "downloadUrl": "https://github.com/NetHack/NetHack/releases/download/NetHack-3.6.6_Released/NetHack-3.6.6_Released.x86.zip",
-          "publishedAt": "2020-03-08T00:00:00.000Z",
-          "gameManifest": {
-            "entry": "NetHack.exe",
             "type": "singleplayer"
           }
         }

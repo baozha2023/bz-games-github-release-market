@@ -49,14 +49,13 @@ asset
 
 本仓库中所有游戏版权归原作者所有，本仓库仅提供下载索引和平台适配配置。
 
-## 已有游戏（27 款）
+## 已有游戏（24 款）
 
 ### 射击 / 街机
 
 | 游戏名称         | 版本       | 作者                | 仓库地址                                                                                |
 |--------------|----------|-------------------|-------------------------------------------------------------------------------------|
 | C-Dogs SDL   | 2.4.0    | Cong Xu           | [cxong/cdogs-sdl](https://github.com/cxong/cdogs-sdl)                               |
-| Freedoom     | 0.13.0   | Freedoom Project  | [freedoom/freedoom](https://github.com/freedoom/freedoom)                           |
 | OpenLieroX   | 0.58-rc5 | Albert Zeyer      | [albertz/openlierox](https://github.com/albertz/openlierox)                         |
 | OpenSpades   | 0.1.3    | yvt               | [yvt/openspades](https://github.com/yvt/openspades)                                 |
 | SDL-Ball     | 1.04     | DusteDdk          | [DusteDdk/SDL-Ball](https://github.com/DusteDdk/SDL-Ball)                           |
@@ -74,7 +73,6 @@ asset
 | Cataclysm: Dark Days Ahead | 2026-05-30 | CleverRaven  | [CleverRaven/Cataclysm-DDA](https://github.com/CleverRaven/Cataclysm-DDA)             |
 | Dungeon Crawl Stone Soup   | 0.34.1     | DCSS Team    | [crawl/crawl](https://github.com/crawl/crawl)                                         |
 | Freeablo                   | 0.4        | wheybags     | [wheybags/freeablo](https://github.com/wheybags/freeablo)                             |
-| NetHack                    | 3.6.6      | NetHack Team | [NetHack/NetHack](https://github.com/NetHack/NetHack)                                 |
 | Shattered Pixel Dungeon    | 3.3.8      | Evan         | [00-Evan/shattered-pixel-dungeon](https://github.com/00-Evan/shattered-pixel-dungeon) |
 
 ### 赛车 / 竞速
@@ -97,7 +95,6 @@ asset
 | 游戏名称            | 版本       | 作者                   | 仓库地址                                                                          |
 |-----------------|----------|----------------------|-------------------------------------------------------------------------------|
 | Harris          | 0.4.1    | ec429                | [ec429/harris](https://github.com/ec429/harris)                               |
-| MegaGlest       | snapshot | MegaGlest Team       | [MegaGlest/megaglest-source](https://github.com/MegaGlest/megaglest-source)   |
 | Warzone 2100    | 4.7.0    | Warzone 2100 Project | [Warzone2100/warzone2100](https://github.com/Warzone2100/warzone2100)         |
 
 ### 平台 / 动作
