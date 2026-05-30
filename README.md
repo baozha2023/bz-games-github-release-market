@@ -49,13 +49,12 @@ asset
 
 本仓库中所有游戏版权归原作者所有，本仓库仅提供下载索引和平台适配配置。
 
-## 已有游戏（36 款）
+## 已有游戏（27 款）
 
 ### 射击 / 街机
 
 | 游戏名称         | 版本       | 作者                | 仓库地址                                                                                |
 |--------------|----------|-------------------|-------------------------------------------------------------------------------------|
-| AssaultCube  | 1.3.0.2  | AssaultCube Team  | [assaultcube/AC](https://github.com/assaultcube/AC)                                 |
 | C-Dogs SDL   | 2.4.0    | Cong Xu           | [cxong/cdogs-sdl](https://github.com/cxong/cdogs-sdl)                               |
 | Freedoom     | 0.13.0   | Freedoom Project  | [freedoom/freedoom](https://github.com/freedoom/freedoom)                           |
 | OpenLieroX   | 0.58-rc5 | Albert Zeyer      | [albertz/openlierox](https://github.com/albertz/openlierox)                         |
@@ -75,16 +74,14 @@ asset
 | Cataclysm: Dark Days Ahead | 2026-05-30 | CleverRaven  | [CleverRaven/Cataclysm-DDA](https://github.com/CleverRaven/Cataclysm-DDA)             |
 | Dungeon Crawl Stone Soup   | 0.34.1     | DCSS Team    | [crawl/crawl](https://github.com/crawl/crawl)                                         |
 | Freeablo                   | 0.4        | wheybags     | [wheybags/freeablo](https://github.com/wheybags/freeablo)                             |
+| NetHack                    | 3.6.6      | NetHack Team | [NetHack/NetHack](https://github.com/NetHack/NetHack)                                 |
 | Shattered Pixel Dungeon    | 3.3.8      | Evan         | [00-Evan/shattered-pixel-dungeon](https://github.com/00-Evan/shattered-pixel-dungeon) |
-| Valyria Tear               | 1.1.0      | Bertram      | [Bertram25/ValyriaTear](https://github.com/Bertram25/ValyriaTear)                     |
 
 ### 赛车 / 竞速
 
-| 游戏名称          | 版本    | 作者                | 仓库地址                                                              |
-|---------------|-------|-------------------|-------------------------------------------------------------------|
-| Savage Wheels | 1.6.1 | Petar Petrov      | [petarov/savagewheels](https://github.com/petarov/savagewheels)   |
-| Stunt Rally   | 2.7   | Crystal Hammer    | [stuntrally/stuntrally](https://github.com/stuntrally/stuntrally) |
-| SuperTuxKart  | 1.5   | SuperTuxKart Team | [supertuxkart/stk-code](https://github.com/supertuxkart/stk-code) |
+| 游戏名称          | 版本    | 作者           | 仓库地址                                                              |
+|---------------|-------|--------------|-------------------------------------------------------------------|
+| Savage Wheels | 1.6.1 | Petar Petrov | [petarov/savagewheels](https://github.com/petarov/savagewheels)   |
 
 ### 沙盒 / 模拟
 
@@ -93,10 +90,7 @@ asset
 | Endless Sky       | 0.10.16      | Michael Zahniser  | [endless-sky/endless-sky](https://github.com/endless-sky/endless-sky) |
 | Freeminer         | 0.4.14.8     | Freeminer Team    | [freeminer/freeminer](https://github.com/freeminer/freeminer)         |
 | Luanti (Minetest) | 5.16.1       | Luanti Team       | [minetest/minetest](https://github.com/minetest/minetest)             |
-| Pioneer           | 20260203     | Pioneer Space Sim | [pioneerspacesim/pioneer](https://github.com/pioneerspacesim/pioneer) |
-| Rigs of Rods      | 2026.01      | Rigs of Rods Team | [RigsOfRods/rigs-of-rods](https://github.com/RigsOfRods/rigs-of-rods) |
 | Terasology        | 5.4.0-rc.1   | MovingBlocks      | [MovingBlocks/Terasology](https://github.com/MovingBlocks/Terasology) |
-| The Powder Toy    | snapshot-396 | Simon Robertshaw  | [simtr/The-Powder-Toy](https://github.com/simtr/The-Powder-Toy)       |
 
 ### 策略 / RTS
 
@@ -104,9 +98,7 @@ asset
 |-----------------|----------|----------------------|-------------------------------------------------------------------------------|
 | Harris          | 0.4.1    | ec429                | [ec429/harris](https://github.com/ec429/harris)                               |
 | MegaGlest       | snapshot | MegaGlest Team       | [MegaGlest/megaglest-source](https://github.com/MegaGlest/megaglest-source)   |
-| Race into Space | 2.0.0    | Race Into Space Team | [raceintospace/raceintospace](https://github.com/raceintospace/raceintospace) |
 | Warzone 2100    | 4.7.0    | Warzone 2100 Project | [Warzone2100/warzone2100](https://github.com/Warzone2100/warzone2100)         |
-| Wyrmsun         | 5.3.6    | Andrettin            | [andrettin/wyrmsun](https://github.com/andrettin/wyrmsun)                     |
 
 ### 平台 / 动作
 
@@ -119,7 +111,6 @@ asset
 
 | 游戏名称    | 版本    | 作者           | 仓库地址                                                    |
 |---------|-------|--------------|---------------------------------------------------------|
-| PokerTH | 2.0.7 | PokerTH Team | [pokerth/pokerth](https://github.com/pokerth/pokerth)   |
 | Wizznic | 1.1   | DusteDdk     | [DusteDdk/Wizznic](https://github.com/DusteDdk/Wizznic) |
 
 ---
