@@ -552,36 +552,6 @@
       ]
     },
     {
-      "id": "com.bzgr.terasology",
-      "name": "Terasology",
-      "author": "MovingBlocks",
-      "author_url": "https://github.com/MovingBlocks",
-      "type": "singleplayer",
-      "summary": "高级体素沙盒引擎 — Minecraft 启发，支持炫酷光影、丰富扩展，纯 Java 开源！",
-      "tags": [
-        "沙盒",
-        "体素",
-        "建造",
-        "创造"
-      ],
-      "featured": true,
-      "visibility": "public",
-      "latestVersion": "5.4.0",
-      "versions": [
-        {
-          "version": "5.4.0",
-          "description": "高级体素沙盒引擎 — Minecraft 启发，支持炫酷光影、丰富扩展，纯 Java 开源！",
-          "platformVersion": ">=2.1.5",
-          "downloadUrl": "https://github.com/MovingBlocks/Terasology/releases/download/v5.4.0-rc.1/TerasologyOmega.zip",
-          "publishedAt": "2026-02-01T00:00:00.000Z",
-          "gameManifest": {
-            "entry": "Terasology.exe",
-            "type": "singleplayer"
-          }
-        }
-      ]
-    },
-    {
       "id": "com.bzgr.warzone2100",
       "name": "Warzone 2100",
       "author": "Warzone 2100 Project",
@@ -636,8 +606,9 @@
           "downloadUrl": "https://github.com/SuperTux/supertux/releases/download/v0.7.0/SuperTux-v0.7.0-win64-portable.zip",
           "publishedAt": "2025-12-20T00:00:00.000Z",
           "gameManifest": {
-            "entry": "supertux2.exe",
-            "type": "singleplayer"
+            "entry": "run_supertux.bat",
+            "type": "singleplayer",
+            "icon": "supertux.png"
           }
         }
       ]
@@ -696,36 +667,6 @@
           "publishedAt": "2015-09-01T00:00:00.000Z",
           "gameManifest": {
             "entry": "harris.exe",
-            "type": "singleplayer"
-          }
-        }
-      ]
-    },
-    {
-      "id": "com.bzgr.freeablo",
-      "name": "Freeablo",
-      "author": "wheybags",
-      "author_url": "https://github.com/wheybags",
-      "type": "singleplayer",
-      "summary": "暗黑破坏神 I 开源引擎复刻 — 需要原版 Diablo 数据文件，重温经典暗黑玩法！",
-      "tags": [
-        "RPG",
-        "ARPG",
-        "暗黑",
-        "经典"
-      ],
-      "featured": false,
-      "visibility": "public",
-      "latestVersion": "0.4.0",
-      "versions": [
-        {
-          "version": "0.4.0",
-          "description": "暗黑破坏神 I 开源引擎复刻 — 需要原版 Diablo 数据文件，重温经典暗黑玩法！",
-          "platformVersion": ">=2.1.5",
-          "downloadUrl": "https://github.com/wheybags/freeablo/releases/download/v0.4/freeablo_v0.4_windows.zip",
-          "publishedAt": "2018-06-15T00:00:00.000Z",
-          "gameManifest": {
-            "entry": "freeablo.exe",
             "type": "singleplayer"
           }
         }
