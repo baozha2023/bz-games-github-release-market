@@ -1,0 +1,194 @@
+# bz-games GitHub Release 市场
+
+为 [bz-games](https://github.com/baozha2023/bz-games) 游戏平台收录通过 GitHub Releases 分发的 Windows 游戏索引仓库。
+
+本市场专注于收录已在 GitHub 上发布 Release 并打包好 `.zip` 游戏文件的 Windows 游戏。平台在下载时会通过 GitHub REST API
+自动获取 Release Asset 的 `digest`（SHA256）和 `size`，**无需手动计算哈希值和文件大小**。
+
+## 与第三方市场的区别
+
+| 特性            | 本市场 (GitHub Release) | 第三方市场                   |
+|---------------|----------------------|-------------------------|
+| 下载源           | GitHub Releases 直链   | GitHub 仓库 Archive / CDN |
+| sha256 / size | 自动获取，可省略             | 非 GitHub URL 时必填        |
+| 游戏类型          | Windows 原生游戏（.exe）   | 以网页游戏为主                 |
+
+## 如何添加新游戏
+
+1. Fork 本仓库
+2. 在 `market.json` 的 `games` 数组中新增一个游戏条目
+3. 填写关键字段：
+
+   ```json
+   {
+     "id": "com.bztp.example",
+     "name": "示例游戏",
+     "type": "singleplayer",
+     "latestVersion": "1.0.0",
+     "versions": [
+       {
+         "version": "1.0.0",
+         "platformVersion": ">=2.1.5",
+         "downloadUrl": "https://github.com/{owner}/{repo}/releases/download/{tag}/{asset}.zip",
+         "publishedAt": "2026-05-30T08:00:00.000Z",
+         "gameManifest": {
+           "entry": "游戏入口.exe",
+           "type": "singleplayer"
+         }
+       }
+     ]
+   }
+   ```
+
+    - **`downloadUrl`**：必须为 GitHub Releases 直链（格式
+      `https://github.com/{owner}/{repo}/releases/download/{tag}/{asset}`），平台自动获取 `sha256` 和 `size`
+    - **`gameManifest`**：由于 GitHub 上的游戏压缩包通常不含 `game.json`，需要通过此字段指定入口文件和其他清单信息
+4. 提交 Pull Request
+
+## market.json 格式说明
+
+`market.json` 字段填写规范、`gameManifest` 配置说明及完整字段列表详见官方仓库 README：
+
+> **[bz-games-market/README.md](https://github.com/baozha2023/bz-games-market/blob/master/README.md)**
+
+关键规则摘要：
+
+- **GitHub Releases 自动校验**：`downloadUrl` 为 GitHub Releases 直链时，`sha256` 和 `size` 可省略，平台自动从 GitHub API
+  获取
+- **`gameManifest`**：若压缩包内无 `game.json`，必须在对应版本的 `gameManifest` 字段中至少配置 `entry`（入口文件），其余字段（
+  `name`、`author`、`type` 等）自动从 Market Game 层级继承
+- **平台版本兼容**：`platformVersion` 使用 `semver` 语法，如 `>=2.1.5`
+
+## 版权说明
+
+本仓库中所有游戏版权归原作者所有，本仓库仅提供下载索引和平台适配配置。
+
+## 已有游戏（36 款）
+
+### 射击 / 街机
+
+| 游戏名称         | 版本       | 作者                | 仓库地址                                                                                |
+|--------------|----------|-------------------|-------------------------------------------------------------------------------------|
+| AssaultCube  | 1.3.0.2  | AssaultCube Team  | [assaultcube/AC](https://github.com/assaultcube/AC)                                 |
+| C-Dogs SDL   | 2.4.0    | Cong Xu           | [cxong/cdogs-sdl](https://github.com/cxong/cdogs-sdl)                               |
+| Freedoom     | 0.13.0   | Freedoom Project  | [freedoom/freedoom](https://github.com/freedoom/freedoom)                           |
+| OpenLieroX   | 0.58-rc5 | Albert Zeyer      | [albertz/openlierox](https://github.com/albertz/openlierox)                         |
+| OpenSpades   | 0.1.3    | yvt               | [yvt/openspades](https://github.com/yvt/openspades)                                 |
+| SDL-Ball     | 1.04     | DusteDdk          | [DusteDdk/SDL-Ball](https://github.com/DusteDdk/SDL-Ball)                           |
+| Taisei       | 1.4.4    | laochailan        | [laochailan/taisei](https://github.com/laochailan/taisei)                           |
+| Teeworlds    | 0.7.5    | Teeworlds Team    | [teeworlds/teeworlds](https://github.com/teeworlds/teeworlds)                       |
+| Turtle Arena | 0.7      | Turtle Arena Team | [Turtle-Arena/turtle-arena-code](https://github.com/Turtle-Arena/turtle-arena-code) |
+| Unvanquished | 0.56.2   | Unvanquished Team | [Unvanquished/Unvanquished](https://github.com/Unvanquished/Unvanquished)           |
+| Witch Blast  | 0.7.5    | Cirrus Minor      | [Cirrus-Minor/witchblast](https://github.com/Cirrus-Minor/witchblast)               |
+
+### Roguelike / RPG
+
+| 游戏名称                       | 版本         | 作者           | 仓库地址                                                                                  |
+|----------------------------|------------|--------------|---------------------------------------------------------------------------------------|
+| Angband                    | 4.2.6      | Angband Team | [angband/angband](https://github.com/angband/angband)                                 |
+| Cataclysm: Dark Days Ahead | 2026-05-30 | CleverRaven  | [CleverRaven/Cataclysm-DDA](https://github.com/CleverRaven/Cataclysm-DDA)             |
+| Dungeon Crawl Stone Soup   | 0.34.1     | DCSS Team    | [crawl/crawl](https://github.com/crawl/crawl)                                         |
+| Freeablo                   | 0.4        | wheybags     | [wheybags/freeablo](https://github.com/wheybags/freeablo)                             |
+| Shattered Pixel Dungeon    | 3.3.8      | Evan         | [00-Evan/shattered-pixel-dungeon](https://github.com/00-Evan/shattered-pixel-dungeon) |
+| Valyria Tear               | 1.1.0      | Bertram      | [Bertram25/ValyriaTear](https://github.com/Bertram25/ValyriaTear)                     |
+
+### 赛车 / 竞速
+
+| 游戏名称          | 版本    | 作者                | 仓库地址                                                              |
+|---------------|-------|-------------------|-------------------------------------------------------------------|
+| Savage Wheels | 1.6.1 | Petar Petrov      | [petarov/savagewheels](https://github.com/petarov/savagewheels)   |
+| Stunt Rally   | 2.7   | Crystal Hammer    | [stuntrally/stuntrally](https://github.com/stuntrally/stuntrally) |
+| SuperTuxKart  | 1.5   | SuperTuxKart Team | [supertuxkart/stk-code](https://github.com/supertuxkart/stk-code) |
+
+### 沙盒 / 模拟
+
+| 游戏名称              | 版本           | 作者                | 仓库地址                                                                  |
+|-------------------|--------------|-------------------|-----------------------------------------------------------------------|
+| Endless Sky       | 0.10.16      | Michael Zahniser  | [endless-sky/endless-sky](https://github.com/endless-sky/endless-sky) |
+| Freeminer         | 0.4.14.8     | Freeminer Team    | [freeminer/freeminer](https://github.com/freeminer/freeminer)         |
+| Luanti (Minetest) | 5.16.1       | Luanti Team       | [minetest/minetest](https://github.com/minetest/minetest)             |
+| Pioneer           | 20260203     | Pioneer Space Sim | [pioneerspacesim/pioneer](https://github.com/pioneerspacesim/pioneer) |
+| Rigs of Rods      | 2026.01      | Rigs of Rods Team | [RigsOfRods/rigs-of-rods](https://github.com/RigsOfRods/rigs-of-rods) |
+| Terasology        | 5.4.0-rc.1   | MovingBlocks      | [MovingBlocks/Terasology](https://github.com/MovingBlocks/Terasology) |
+| The Powder Toy    | snapshot-396 | Simon Robertshaw  | [simtr/The-Powder-Toy](https://github.com/simtr/The-Powder-Toy)       |
+
+### 策略 / RTS
+
+| 游戏名称            | 版本       | 作者                   | 仓库地址                                                                          |
+|-----------------|----------|----------------------|-------------------------------------------------------------------------------|
+| Harris          | 0.4.1    | ec429                | [ec429/harris](https://github.com/ec429/harris)                               |
+| MegaGlest       | snapshot | MegaGlest Team       | [MegaGlest/megaglest-source](https://github.com/MegaGlest/megaglest-source)   |
+| Race into Space | 2.0.0    | Race Into Space Team | [raceintospace/raceintospace](https://github.com/raceintospace/raceintospace) |
+| Warzone 2100    | 4.7.0    | Warzone 2100 Project | [Warzone2100/warzone2100](https://github.com/Warzone2100/warzone2100)         |
+| Wyrmsun         | 5.3.6    | Andrettin            | [andrettin/wyrmsun](https://github.com/andrettin/wyrmsun)                     |
+
+### 平台 / 动作
+
+| 游戏名称     | 版本    | 作者            | 仓库地址                                                              |
+|----------|-------|---------------|-------------------------------------------------------------------|
+| Minilens | 1.2   | KOBUGE Games  | [KOBUGE-Games/minilens](https://github.com/KOBUGE-Games/minilens) |
+| SuperTux | 0.7.0 | SuperTux Team | [SuperTux/supertux](https://github.com/SuperTux/supertux)         |
+
+### 解谜 / 棋牌
+
+| 游戏名称    | 版本    | 作者           | 仓库地址                                                    |
+|---------|-------|--------------|---------------------------------------------------------|
+| PokerTH | 2.0.7 | PokerTH Team | [pokerth/pokerth](https://github.com/pokerth/pokerth)   |
+| Wizznic | 1.1   | DusteDdk     | [DusteDdk/Wizznic](https://github.com/DusteDdk/Wizznic) |
+
+---
+
+## 推荐但暂无 GitHub Release Windows 版的游戏
+
+以下游戏来自 [leereilly/games](https://github.com/leereilly/games) Native 分类，质量优秀、值得推荐，但目前没有在 GitHub
+Releases 中发布 Windows 版本。如果原作者或社区能打包 Windows 版并发布 Release，即可加入本市场。
+
+### 已有 Release 但无 Windows 版（打包即可加入）
+
+| 游戏名称              | 最新版本         | 仓库地址                                                                      | 备注                              |
+|-------------------|--------------|---------------------------------------------------------------------------|---------------------------------|
+| Duckmarines       | v1.0c        | [SimonLarsen/duckmarines](https://github.com/SimonLarsen/duckmarines)     | ChuChu Rocket 复刻，需补充 Windows 构建 |
+| Colobot           | 0.2.2-alpha  | [colobot/colobot](https://github.com/colobot/colobot)                     | 含编程要素的 RTS，有 Win 源码但未打包         |
+| KeeperRL          | 1.0-hotfix19 | [miki151/keeperrl](https://github.com/miki151/keeperrl)                   | 矮人要塞风格地牢建造，需补充 Win 构建           |
+| OpenDungeons      | 0.7.1        | [OpenDungeons/OpenDungeons](https://github.com/OpenDungeons/OpenDungeons) | 地下城守护者风，仅有源码 tar.xz             |
+| Seven Kingdoms AA | 2.15.6       | [the3dfxdude/7kaa](https://github.com/the3dfxdude/7kaa)                   | 经典 RTS，需补充 Win 构建               |
+| Blackvoxel        | 2.5          | [Blackvoxel/Blackvoxel](https://github.com/Blackvoxel/Blackvoxel)         | 体素沙盒，需补充 Win 构建                 |
+
+### 引擎复刻（需配合原版数据文件）
+
+| 游戏名称           | 最新版本              | 仓库地址                                                              | 所需数据                        |
+|----------------|-------------------|-------------------------------------------------------------------|-----------------------------|
+| Arx Libertatis | 1.2.1             | [arx/ArxLibertatis](https://github.com/arx/ArxLibertatis)         | Arx Fatalis 原版数据            |
+| CorsixTH       | 0.69.2            | [CorsixTH/CorsixTH](https://github.com/CorsixTH/CorsixTH)         | Theme Hospital 原版数据         |
+| OpenFodder     | 2.0.0             | [OpenFodder/openfodder](https://github.com/OpenFodder/openfodder) | Cannon Fodder 原版数据          |
+| OpenLara       | latest            | [XProger/OpenLara](https://github.com/XProger/OpenLara)           | Tomb Raider 原版数据            |
+| OpenMW         | 0.51.0-RC2        | [OpenMW/openmw](https://github.com/OpenMW/openmw)                 | Morrowind 原版数据              |
+| OpenRA         | playtest-20260222 | [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA)                 | Red Alert / C&C 原版数据        |
+| OpenRCT2       | 0.5.1             | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2)         | Rollercoaster Tycoon 2 原版数据 |
+| OpenTomb       | 2018-02-03        | [opentomb/OpenTomb](https://github.com/opentomb/OpenTomb)         | Tomb Raider 1-5 原版数据        |
+| OpenXcom       | —                 | [SupSuper/OpenXcom](https://github.com/SupSuper/OpenXcom)         | X-COM 原版数据                  |
+| Wargus         | 3.3.2             | [Wargus/wargus](https://github.com/Wargus/wargus)                 | Warcraft II 原版数据            |
+
+### 高价值但无任何 Release
+
+| 游戏名称                        | 仓库地址                                                                        | 类型        | 推荐理由                                         |
+|-----------------------------|-----------------------------------------------------------------------------|-----------|----------------------------------------------|
+| 0 A.D.                      | [0ad/0ad](https://github.com/0ad/0ad)                                       | RTS       | 顶级开源 RTS，类似帝国时代 II，有独立安装包但未用 GitHub Releases |
+| OpenTTD                     | [OpenTTD/OpenTTD](https://github.com/OpenTTD/OpenTTD)                       | 模拟经营      | 运输大亨开源复刻，Steam 在售，但 GitHub 无二进制 Release      |
+| The Battle for Wesnoth      | [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth)                       | 策略        | 经典奇幻回合制策略，Steam 在售，需补充 GitHub Release        |
+| Hedgewars                   | [hedgewars/hw](https://github.com/hedgewars/hw)                             | 策略        | 百战天虫风格，有独立发布渠道，未用 GitHub Releases            |
+| Endless Sky                 | [endless-sky/endless-sky](https://github.com/endless-sky/endless-sky)       | 太空        | ✅ 已收录                                        |
+| Minetest                    | [minetest/minetest](https://github.com/minetest/minetest)                   | 沙盒        | ✅ 已收录（Luanti）                                |
+| Frogatto                    | [frogatto/frogatto](https://github.com/frogatto/frogatto)                   | 平台        | 精美像素动作冒险，有源代码但未打 Release 包                   |
+| Gish                        | [blinry/gish](https://github.com/blinry/gish)                               | 平台        | 获奖物理平台游戏，源码开放但无 Release                      |
+| The Legend of Edgar         | [riksweeney/edgar](https://github.com/riksweeney/edgar)                     | 平台        | 2D 平台冒险，有持续更新但无 GitHub Release               |
+| Commander Genius            | [gerstrong/Commander-Genius](https://github.com/gerstrong/Commander-Genius) | 平台        | Commander Keen 兼容引擎                          |
+| Secret Chronicles of Dr. M. | [Secretchronicles/TSC](https://github.com/Secretchronicles/TSC)             | 平台        | 经典 2D 平台，类似超级玛丽                              |
+| Stendhal                    | [arianne/stendhal](https://github.com/arianne/stendhal)                     | MMORPG    | 免费 2D 多人在线冒险，有独立发布                           |
+| Flare RPG                   | [clintbellanger/flare-game](https://github.com/clintbellanger/flare-game)   | RPG       | 开源 ARPG 引擎+游戏，有独立发布渠道                        |
+| NetHack                     | [NetHack/NetHack](https://github.com/NetHack/NetHack)                       | Roguelike | 最经典的 Roguelike 之一，需补充 Win 构建                 |
+| OpenMeridian                | [OpenMeridian/Meridian59](https://github.com/OpenMeridian/Meridian59)       | MMORPG    | 史上首款 3D MMORPG（1996），开源运营中                   |
+| Freeablo                    | [wheybags/freeablo](https://github.com/wheybags/freeablo)                   | ARPG      | ✅ 已收录（暗黑 I 引擎复刻）                             |
+| openage                     | [SFTtech/openage](https://github.com/SFTtech/openage)                       | RTS       | 帝国时代 II 引擎复刻，活跃开发中                           |
+
+> **提示**：如果你发现以上某款游戏已经发布了 Windows Release，欢迎提交 PR 添加到 `market.json` 中！

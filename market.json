@@ -1,8 +1,1193 @@
 {
   "schemaVersion": "1.2.0",
   "marketId": "github-release-market",
-  "marketName": "Github-Release-Market",
-  "generatedAt": "2026-05-27T08:00:00.000Z",
+  "marketName": "GitHub Release Market",
+  "generatedAt": "2026-05-30T14:00:00.000Z",
   "games": [
+    {
+      "id": "com.bztp.shatteredpd",
+      "name": "Shattered Pixel Dungeon",
+      "author": "Evan",
+      "author_url": "https://github.com/00-Evan",
+      "type": "singleplayer",
+      "summary": "经典 Roguelike 像素地牢 — 探索随机生成的地牢，收集武器道具，挑战地牢Boss！",
+      "tags": [
+        "Roguelike",
+        "地牢",
+        "像素",
+        "冒险",
+        "RPG"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "3.3.8",
+      "versions": [
+        {
+          "version": "3.3.8",
+          "description": "像素地牢神作 — 四职业可选，随机地牢、海量道具、策略回合制战斗！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/00-Evan/shattered-pixel-dungeon/releases/download/v3.3.8/ShatteredPD-v3.3.8-Windows.zip",
+          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "gameManifest": {
+            "entry": "Shattered Pixel Dungeon.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.endlesssky",
+      "name": "Endless Sky",
+      "author": "Michael Zahniser",
+      "author_url": "https://github.com/endless-sky",
+      "type": "singleplayer",
+      "summary": "开源太空探索贸易游戏 — 驾驶飞船在广袤星系中贸易、战斗、探索，体验史诗级太空冒险！",
+      "tags": [
+        "太空",
+        "探索",
+        "贸易",
+        "战斗",
+        "RPG",
+        "开放世界"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "0.10.16",
+      "versions": [
+        {
+          "version": "0.10.16",
+          "description": "开源太空沙盒神作 — 自由探索星系、倒卖货物致富、改装飞船舰队，书写属于你的太空传奇！",
+          "platformVersion": ">=2.1.6",
+          "downloadUrl": "https://github.com/endless-sky/endless-sky/releases/download/v0.10.16/EndlessSky-win64-v0.10.16.zip",
+          "publishedAt": "2026-05-29T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "Endless Sky.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.cdogs-sdl",
+      "name": "C-Dogs SDL",
+      "author": "Cong Xu",
+      "author_url": "https://github.com/cxong",
+      "type": "singleplayer",
+      "summary": "经典俯视角射击游戏移植版 — 支持单人和多人合作，像素风格快节奏战斗！",
+      "tags": [
+        "射击",
+        "街机",
+        "像素",
+        "多人"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "2.4.0",
+      "versions": [
+        {
+          "version": "2.4.0",
+          "description": "经典俯视角射击游戏移植版 — 支持单人和多人合作，像素风格快节奏战斗！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/cxong/cdogs-sdl/releases/download/v2.4.0/C-Dogs.SDL-2.4.0-win32.zip",
+          "publishedAt": "2024-12-15T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "cdogs-sdl.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.openlierox",
+      "name": "OpenLieroX",
+      "author": "Albert Zeyer & contributors",
+      "author_url": "https://github.com/albertz",
+      "type": "singleplayer",
+      "summary": "Liero 经典复刻 — 实时百战天虫式 2D 射击，支持本地/在线多人混战！",
+      "tags": [
+        "射击",
+        "街机",
+        "多人",
+        "物理"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "0.58-rc5",
+      "versions": [
+        {
+          "version": "0.58-rc5",
+          "description": "Liero 经典复刻 — 实时百战天虫式 2D 射击，支持本地/在线多人混战！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/albertz/openlierox/releases/download/v0.58_rc5/OpenLieroX_0.58_rc5.win32.zip",
+          "publishedAt": "2015-07-28T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "OpenLieroX.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.savagewheels",
+      "name": "Savage Wheels",
+      "author": "Petar Petrov",
+      "author_url": "https://github.com/petarov",
+      "type": "singleplayer",
+      "summary": "2D 车辆碰撞破坏游戏 — 类似经典 Destruction Derby，驾驶改装车辆在赛场上激烈碰撞！",
+      "tags": [
+        "赛车",
+        "破坏",
+        "街机"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "1.6.1",
+      "versions": [
+        {
+          "version": "1.6.1",
+          "description": "2D 车辆碰撞破坏游戏 — 类似经典 Destruction Derby，驾驶改装车辆在赛场上激烈碰撞！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/petarov/savagewheels/releases/download/v1.6.1/savagewheels-1.6.1-Windows-x86.zip",
+          "publishedAt": "2019-05-20T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "savagewheels.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.taisei",
+      "name": "Taisei",
+      "author": "laochailan & contributors",
+      "author_url": "https://github.com/laochailan",
+      "type": "singleplayer",
+      "summary": "东方 Project 同人开源弹幕射击 — 华丽的弹幕、高品质音乐、完整的闯关体验！",
+      "tags": [
+        "弹幕",
+        "射击",
+        "东方",
+        "音乐"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "1.4.4",
+      "versions": [
+        {
+          "version": "1.4.4",
+          "description": "东方 Project 同人开源弹幕射击 — 华丽的弹幕、高品质音乐、完整的闯关体验！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/laochailan/taisei/releases/download/v1.4.4/Taisei-1.4.4-windows-x86_64.zip",
+          "publishedAt": "2025-12-20T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "taisei.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.teeworlds",
+      "name": "Teeworlds",
+      "author": "Teeworlds Team",
+      "author_url": "https://github.com/teeworlds",
+      "type": "singleplayer",
+      "summary": "经典在线多人 2D 平台射击 — 可爱的 Tee 角色，钩爪移动 + 多样武器，快节奏竞技！",
+      "tags": [
+        "射击",
+        "平台",
+        "多人",
+        "竞技"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "0.7.5",
+      "versions": [
+        {
+          "version": "0.7.5",
+          "description": "经典在线多人 2D 平台射击 — 可爱的 Tee 角色，钩爪移动 + 多样武器，快节奏竞技！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/teeworlds/teeworlds/releases/download/0.7.5/teeworlds-0.7.5-win64.zip",
+          "publishedAt": "2020-04-19T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "teeworlds.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.witchblast",
+      "name": "Witch Blast",
+      "author": "Cirrus Minor",
+      "author_url": "https://github.com/Cirrus-Minor",
+      "type": "singleplayer",
+      "summary": "Roguelite 地牢射击 — 类似以撒的结合，随机地牢、丰富道具、高重玩性！",
+      "tags": [
+        "Roguelite",
+        "地牢",
+        "射击",
+        "动作"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "0.7.5",
+      "versions": [
+        {
+          "version": "0.7.5",
+          "description": "Roguelite 地牢射击 — 类似以撒的结合，随机地牢、丰富道具、高重玩性！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/Cirrus-Minor/witchblast/releases/download/v0.7.5/Witch.Blast.v0.7.5.zip",
+          "publishedAt": "2020-03-15T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "WitchBlast.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.assaultcube",
+      "name": "AssaultCube",
+      "author": "AssaultCube Team",
+      "author_url": "https://github.com/assaultcube",
+      "type": "singleplayer",
+      "summary": "经典免费 FPS — 轻量级射击游戏，低配置也能流畅运行，支持多人在线对战！",
+      "tags": [
+        "FPS",
+        "射击",
+        "多人",
+        "经典"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "1.3.0.2",
+      "versions": [
+        {
+          "version": "1.3.0.2",
+          "description": "经典免费 FPS — 轻量级射击游戏，低配置也能流畅运行，支持多人在线对战！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/assaultcube/AC/releases/download/v1.3.0.2/AssaultCube_v1.3.0.2_LockdownEdition.exe",
+          "publishedAt": "2022-12-11T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "assaultcube.bat",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.freedoom",
+      "name": "Freedoom",
+      "author": "Freedoom Project",
+      "author_url": "https://github.com/freedoom",
+      "type": "singleplayer",
+      "summary": "完全自由的 Doom 替代品 — 免费开源 FPS，包含完整关卡、音效和纹理，无需额外文件！",
+      "tags": [
+        "FPS",
+        "射击",
+        "经典",
+        "Doom"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "0.13.0",
+      "versions": [
+        {
+          "version": "0.13.0",
+          "description": "完全自由的 Doom 替代品 — 免费开源 FPS，包含完整关卡、音效和纹理，无需额外文件！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip",
+          "publishedAt": "2024-01-27T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "freedoom.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.openspades",
+      "name": "OpenSpades",
+      "author": "yvt & contributors",
+      "author_url": "https://github.com/yvt",
+      "type": "singleplayer",
+      "summary": "Ace of Spades 0.75 兼容客户端 — 体素沙盒射击，建造掩体、挖掘隧道、持枪对战！",
+      "tags": [
+        "FPS",
+        "沙盒",
+        "体素",
+        "建造",
+        "多人"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "0.1.3",
+      "versions": [
+        {
+          "version": "0.1.3",
+          "description": "Ace of Spades 0.75 兼容客户端 — 体素沙盒射击，建造掩体、挖掘隧道、持枪对战！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/yvt/openspades/releases/download/v0.1.3/OpenSpades-0.1.3-Windows.zip",
+          "publishedAt": "2018-06-10T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "OpenSpades.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.turtlearena",
+      "name": "Turtle Arena",
+      "author": "Turtle Arena Team",
+      "author_url": "https://github.com/Turtle-Arena",
+      "type": "singleplayer",
+      "summary": "第三人称动作游戏 — 忍者神龟风格，使用 Spearmint 引擎，支持单人和多人在线！",
+      "tags": [
+        "动作",
+        "TPS",
+        "多人",
+        "忍者"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "0.7",
+      "versions": [
+        {
+          "version": "0.7",
+          "description": "第三人称动作游戏 — 忍者神龟风格，使用 Spearmint 引擎，支持单人和多人在线！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/Turtle-Arena/turtle-arena-code/releases/download/release-0.7/turtlearena-0.7-windows.zip",
+          "publishedAt": "2013-12-15T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "turtlearena.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.unvanquished",
+      "name": "Unvanquished",
+      "author": "Unvanquished Team",
+      "author_url": "https://github.com/Unvanquished",
+      "type": "singleplayer",
+      "summary": "科幻题材 FPS + RTS 混合 — 人类与外星虫族对决，建造基地、升级科技、团队竞技！",
+      "tags": [
+        "FPS",
+        "RTS",
+        "科幻",
+        "多人",
+        "团队"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "0.56.2",
+      "versions": [
+        {
+          "version": "0.56.2",
+          "description": "科幻题材 FPS + RTS 混合 — 人类与外星虫族对决，建造基地、升级科技、团队竞技！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/Unvanquished/Unvanquished/releases/download/v0.56.2/unvanquished_0.56.2.zip",
+          "publishedAt": "2025-09-15T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "unvanquished.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.angband",
+      "name": "Angband",
+      "author": "Angband Development Team",
+      "author_url": "https://github.com/angband",
+      "type": "singleplayer",
+      "summary": "经典 Roguelike 地牢探索 — 深入魔苟斯的巢穴，回合制战斗，托尔金中土世界观！",
+      "tags": [
+        "Roguelike",
+        "地牢",
+        "RPG",
+        "回合制",
+        "经典"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "4.2.6",
+      "versions": [
+        {
+          "version": "4.2.6",
+          "description": "经典 Roguelike 地牢探索 — 深入魔苟斯的巢穴，回合制战斗，托尔金中土世界观！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/angband/angband/releases/download/4.2.6-138-g965933744/Angband-4.2.6-138-g965933744-win.zip",
+          "publishedAt": "2026-05-01T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "angband.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.cataclysm-dda",
+      "name": "Cataclysm: Dark Days Ahead",
+      "author": "CleverRaven & community",
+      "author_url": "https://github.com/CleverRaven",
+      "type": "singleplayer",
+      "summary": "后末日开放世界 Roguelike — 在僵尸横行的末世中生存、建造、探索、战斗！",
+      "tags": [
+        "Roguelike",
+        "生存",
+        "末日",
+        "建造",
+        "开放世界"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "2026-05-30",
+      "versions": [
+        {
+          "version": "2026-05-30",
+          "description": "后末日开放世界 Roguelike — 在僵尸横行的末世中生存、建造、探索、战斗！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/CleverRaven/Cataclysm-DDA/releases/download/cdda-experimental-2026-05-30-0358/cdda-windows-with-graphics-and-sounds-x64-2026-05-30-0358.zip",
+          "publishedAt": "2026-05-30T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "cataclysm-tiles.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.dungeon-crawl-stone-soup",
+      "name": "Dungeon Crawl Stone Soup",
+      "author": "DCSS Team",
+      "author_url": "https://github.com/crawl",
+      "type": "singleplayer",
+      "summary": "顶级 Roguelike 地牢探索 — 27种族×25职业，丰富的策略深度和极高的重玩价值！",
+      "tags": [
+        "Roguelike",
+        "地牢",
+        "RPG",
+        "策略"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "0.34.1",
+      "versions": [
+        {
+          "version": "0.34.1",
+          "description": "顶级 Roguelike 地牢探索 — 27种族×25职业，丰富的策略深度和极高的重玩价值！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/crawl/crawl/releases/download/0.34.1/dcss-0.34.1-win32-tiles.zip",
+          "publishedAt": "2025-12-15T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "crawl-tiles.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.valyria-tear",
+      "name": "Valyria Tear",
+      "author": "Bertram",
+      "author_url": "https://github.com/Bertram25",
+      "type": "singleplayer",
+      "summary": "中世纪奇幻 2D J-RPG — 精美像素画面，回合制战斗，完整史诗剧情！",
+      "tags": [
+        "RPG",
+        "JRPG",
+        "像素",
+        "奇幻"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "1.1.0",
+      "versions": [
+        {
+          "version": "1.1.0",
+          "description": "中世纪奇幻 2D J-RPG — 精美像素画面，回合制战斗，完整史诗剧情！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/Bertram25/ValyriaTear/releases/download/v1.1.0/ValyriaTear-v1.1.0-installer.exe",
+          "publishedAt": "2015-02-14T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "ValyriaTear.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.minilens",
+      "name": "Minilens",
+      "author": "KOBUGE Games",
+      "author_url": "https://github.com/KOBUGE-Games",
+      "type": "singleplayer",
+      "summary": "可爱清洁机器人解谜平台 — 在地球末世废墟中，操控小小机器人清扫垃圾、破解谜题！",
+      "tags": [
+        "平台",
+        "解谜",
+        "像素",
+        "休闲"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "1.2",
+      "versions": [
+        {
+          "version": "1.2",
+          "description": "可爱清洁机器人解谜平台 — 在地球末世废墟中，操控小小机器人清扫垃圾、破解谜题！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/KOBUGE-Games/minilens/releases/download/v1.2/Minilens-1.2-Win64.zip",
+          "publishedAt": "2016-08-01T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "minilens.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.wizznic",
+      "name": "Wizznic",
+      "author": "DusteDdk",
+      "author_url": "https://github.com/DusteDdk",
+      "type": "singleplayer",
+      "summary": "极简砖块消除解谜 — 移动砖块使之匹配消除，数百关卡挑战你的逻辑思维！",
+      "tags": [
+        "解谜",
+        "消除",
+        "休闲",
+        "像素"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "1.1",
+      "versions": [
+        {
+          "version": "1.1",
+          "description": "极简砖块消除解谜 — 移动砖块使之匹配消除，数百关卡挑战你的逻辑思维！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/DusteDdk/Wizznic/releases/download/1.1/Wizznic_win_build_400.zip",
+          "publishedAt": "2020-07-01T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "Wizznic.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.pokerth",
+      "name": "PokerTH",
+      "author": "PokerTH Team",
+      "author_url": "https://github.com/pokerth",
+      "type": "singleplayer",
+      "summary": "开源德州扑克 — 支持在线多人对战和 AI 单机，精美图形界面！",
+      "tags": [
+        "棋牌",
+        "扑克",
+        "多人",
+        "休闲"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "2.0.7",
+      "versions": [
+        {
+          "version": "2.0.7",
+          "description": "开源德州扑克 — 支持在线多人对战和 AI 单机，精美图形界面！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/pokerth/pokerth/releases/download/v2.0.7/PokerTH-2.0.7-Setup.exe",
+          "publishedAt": "2025-06-01T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "pokerth.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.stuntrally",
+      "name": "Stunt Rally",
+      "author": "Crystal Hammer",
+      "author_url": "https://github.com/stuntrally",
+      "type": "singleplayer",
+      "summary": "3D 拉力赛车游戏 — 内置赛道编辑器，基于 VDrift+OGRE，真实物理模拟，180+ 赛道！",
+      "tags": [
+        "赛车",
+        "3D",
+        "模拟",
+        "编辑器"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "2.7",
+      "versions": [
+        {
+          "version": "2.7",
+          "description": "3D 拉力赛车游戏 — 内置赛道编辑器，基于 VDrift+OGRE，真实物理模拟，180+ 赛道！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/stuntrally/stuntrally/releases/download/2.7/StuntRally-2.7-installer.exe",
+          "publishedAt": "2023-05-01T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "StuntRally.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.supertuxkart",
+      "name": "SuperTuxKart",
+      "author": "SuperTuxKart Team",
+      "author_url": "https://github.com/supertuxkart",
+      "type": "singleplayer",
+      "summary": "开源 3D 卡丁车竞速 — Linux 吉祥物大乱斗，道具赛、竞速赛，支持局域网/在线多人！",
+      "tags": [
+        "赛车",
+        "3D",
+        "多人",
+        "休闲",
+        "卡丁车"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "1.5",
+      "versions": [
+        {
+          "version": "1.5",
+          "description": "开源 3D 卡丁车竞速 — Linux 吉祥物大乱斗，道具赛、竞速赛，支持局域网/在线多人！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/supertuxkart/stk-code/releases/download/1.5/SuperTuxKart-1.5-installer-x86_64.exe",
+          "publishedAt": "2026-04-21T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "supertuxkart.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.freeminer",
+      "name": "Freeminer",
+      "author": "Freeminer Team",
+      "author_url": "https://github.com/freeminer",
+      "type": "singleplayer",
+      "summary": "开源体素沙盒建造 — Minetest 的增强分支，无限世界、多人联机、自由创造！",
+      "tags": [
+        "沙盒",
+        "体素",
+        "建造",
+        "多人"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "0.4.14.8",
+      "versions": [
+        {
+          "version": "0.4.14.8",
+          "description": "开源体素沙盒建造 — Minetest 的增强分支，无限世界、多人联机、自由创造！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/freeminer/freeminer/releases/download/0.4.14.8/freeminer-0.4.14.8-win64.zip",
+          "publishedAt": "2018-08-28T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "freeminer.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.minetest",
+      "name": "Luanti (Minetest)",
+      "author": "Luanti Team",
+      "author_url": "https://github.com/minetest",
+      "type": "singleplayer",
+      "summary": "开源体素沙盒游戏引擎 — 类似 Minecraft 的无限世界，支持 MOD、多人服务器、内置游戏！",
+      "tags": [
+        "沙盒",
+        "体素",
+        "建造",
+        "多人",
+        "创造"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "5.16.1",
+      "versions": [
+        {
+          "version": "5.16.1",
+          "description": "开源体素沙盒游戏引擎 — 类似 Minecraft 的无限世界，支持 MOD、多人服务器、内置游戏！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/minetest/minetest/releases/download/5.16.1/luanti-5.16.1-win64.zip",
+          "publishedAt": "2026-04-15T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "luanti.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.rigs-of-rods",
+      "name": "Rigs of Rods",
+      "author": "Rigs of Rods Team",
+      "author_url": "https://github.com/RigsOfRods",
+      "type": "singleplayer",
+      "summary": "软体物理模拟沙盒 — 驾驶卡车、飞机、船只，真实的物理破坏和地形交互！",
+      "tags": [
+        "模拟",
+        "沙盒",
+        "物理",
+        "载具"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "2026.01",
+      "versions": [
+        {
+          "version": "2026.01",
+          "description": "软体物理模拟沙盒 — 驾驶卡车、飞机、船只，真实的物理破坏和地形交互！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/RigsOfRods/rigs-of-rods/releases/download/2026.01/rigs-of-rods-2026.01.exe",
+          "publishedAt": "2026-01-15T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "RoR.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.terasology",
+      "name": "Terasology",
+      "author": "MovingBlocks",
+      "author_url": "https://github.com/MovingBlocks",
+      "type": "singleplayer",
+      "summary": "高级体素沙盒引擎 — Minecraft 启发，支持炫酷光影、丰富扩展，纯 Java 开源！",
+      "tags": [
+        "沙盒",
+        "体素",
+        "建造",
+        "创造"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "5.4.0-rc.1",
+      "versions": [
+        {
+          "version": "5.4.0-rc.1",
+          "description": "高级体素沙盒引擎 — Minecraft 启发，支持炫酷光影、丰富扩展，纯 Java 开源！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/MovingBlocks/Terasology/releases/download/v5.4.0-rc.1/TerasologyOmega.zip",
+          "publishedAt": "2026-02-01T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "Terasology.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.the-powder-toy",
+      "name": "The Powder Toy",
+      "author": "Simon Robertshaw & community",
+      "author_url": "https://github.com/simtr",
+      "type": "singleplayer",
+      "summary": "经典落沙物理模拟 — 创造爆炸、电路、化学反应，万物皆可模拟的像素沙盒！",
+      "tags": [
+        "沙盒",
+        "物理",
+        "模拟",
+        "像素",
+        "创造"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "snapshot-396",
+      "versions": [
+        {
+          "version": "snapshot-396",
+          "description": "经典落沙物理模拟 — 创造爆炸、电路、化学反应，万物皆可模拟的像素沙盒！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/simtr/The-Powder-Toy/releases/download/snapshot-396/powdersnapshot-snapshot-396-x86_64-windows-msvc.exe",
+          "publishedAt": "2026-05-15T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "powder.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.megaglest",
+      "name": "MegaGlest",
+      "author": "MegaGlest Team",
+      "author_url": "https://github.com/MegaGlest",
+      "type": "singleplayer",
+      "summary": "开源 3D RTS — 建造基地、采集资源、训练军队，支持单机战役和多人对战！",
+      "tags": [
+        "RTS",
+        "策略",
+        "3D",
+        "多人",
+        "建造"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "snapshot",
+      "versions": [
+        {
+          "version": "snapshot",
+          "description": "开源 3D RTS — 建造基地、采集资源、训练军队，支持单机战役和多人对战！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/MegaGlest/megaglest-source/releases/download/snapshot/megaglest-x64-windows.zip",
+          "publishedAt": "2024-12-01T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "megaglest.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.pioneer",
+      "name": "Pioneer",
+      "author": "Pioneer Space Sim",
+      "author_url": "https://github.com/pioneerspacesim",
+      "type": "singleplayer",
+      "summary": "开源太空探索模拟 — 在广袤星系中贸易、战斗、探索，Elite 风格的硬核太空沙盒！",
+      "tags": [
+        "太空",
+        "模拟",
+        "探索",
+        "贸易",
+        "沙盒"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "20260203",
+      "versions": [
+        {
+          "version": "20260203",
+          "description": "开源太空探索模拟 — 在广袤星系中贸易、战斗、探索，Elite 风格的硬核太空沙盒！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/pioneerspacesim/pioneer/releases/download/20260203/pioneer-20260203-win.exe",
+          "publishedAt": "2026-02-03T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "pioneer.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.raceintospace",
+      "name": "Race into Space",
+      "author": "Race Into Space Team",
+      "author_url": "https://github.com/raceintospace",
+      "type": "singleplayer",
+      "summary": "回合制太空竞赛策略 — 美国 vs 苏联登月竞赛，管理预算、研发火箭、执行任务！",
+      "tags": [
+        "策略",
+        "模拟",
+        "太空",
+        "历史",
+        "回合制"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "2.0.0",
+      "versions": [
+        {
+          "version": "2.0.0",
+          "description": "回合制太空竞赛策略 — 美国 vs 苏联登月竞赛，管理预算、研发火箭、执行任务！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/raceintospace/raceintospace/releases/download/v2.0.0/raceintospace-2.0.0-win32.exe",
+          "publishedAt": "2024-07-04T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "raceintospace.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.warzone2100",
+      "name": "Warzone 2100",
+      "author": "Warzone 2100 Project",
+      "author_url": "https://github.com/Warzone2100",
+      "type": "singleplayer",
+      "summary": "经典后末日 RTS — 设计自定义单位、研究科技树、3D 地形战术，完整战役+多人！",
+      "tags": [
+        "RTS",
+        "策略",
+        "3D",
+        "科幻",
+        "多人"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "4.7.0",
+      "versions": [
+        {
+          "version": "4.7.0",
+          "description": "经典后末日 RTS — 设计自定义单位、研究科技树、3D 地形战术，完整战役+多人！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/Warzone2100/warzone2100/releases/download/4.7.0/warzone2100_win_x64_archive.zip",
+          "publishedAt": "2025-12-15T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "warzone2100.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.wyrmsun",
+      "name": "Wyrmsun",
+      "author": "Andrettin",
+      "author_url": "https://github.com/andrettin",
+      "type": "singleplayer",
+      "summary": "基于历史的奇幻策略 RTS — 融合神话与历史，建造城镇、训练军队、征服世界！",
+      "tags": [
+        "RTS",
+        "策略",
+        "奇幻",
+        "历史",
+        "像素"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "5.3.6",
+      "versions": [
+        {
+          "version": "5.3.6",
+          "description": "基于历史的奇幻策略 RTS — 融合神话与历史，建造城镇、训练军队、征服世界！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/andrettin/wyrmsun/releases/download/v5.3.6/wyrmsun.exe",
+          "publishedAt": "2022-06-01T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "wyrmsun.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.supertux",
+      "name": "SuperTux",
+      "author": "SuperTux Development Team",
+      "author_url": "https://github.com/SuperTux",
+      "type": "singleplayer",
+      "summary": "经典 2D 平台跳跃 — 类似超级玛丽，小企鹅 Tux 的冒险之旅，丰富关卡等你挑战！",
+      "tags": [
+        "平台",
+        "动作",
+        "经典",
+        "冒险"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "0.7.0",
+      "versions": [
+        {
+          "version": "0.7.0",
+          "description": "经典 2D 平台跳跃 — 类似超级玛丽，小企鹅 Tux 的冒险之旅，丰富关卡等你挑战！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/SuperTux/supertux/releases/download/v0.7.0/SuperTux-v0.7.0-win64-portable.zip",
+          "publishedAt": "2025-12-20T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "supertux2.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.sdl-ball",
+      "name": "SDL-Ball",
+      "author": "DusteDdk",
+      "author_url": "https://github.com/DusteDdk",
+      "type": "singleplayer",
+      "summary": "精美的打砖块游戏 — 现代 OpenGL 渲染，华丽粒子特效，经典玩法全新演绎！",
+      "tags": [
+        "打砖块",
+        "街机",
+        "休闲"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "1.04",
+      "versions": [
+        {
+          "version": "1.04",
+          "description": "精美的打砖块游戏 — 现代 OpenGL 渲染，华丽粒子特效，经典玩法全新演绎！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/DusteDdk/SDL-Ball/releases/download/1.04/SDL-Ball_1.04_windows.zip",
+          "publishedAt": "2020-05-01T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "SDL-Ball.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.harris",
+      "name": "Harris",
+      "author": "ec429",
+      "author_url": "https://github.com/ec429",
+      "type": "singleplayer",
+      "summary": "二战 RAF 轰炸机司令部策略 — 指挥英国皇家空军轰炸机队，运筹帷幄决胜千里！",
+      "tags": [
+        "策略",
+        "模拟",
+        "战争",
+        "历史"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "0.4.1",
+      "versions": [
+        {
+          "version": "0.4.1",
+          "description": "二战 RAF 轰炸机司令部策略 — 指挥英国皇家空军轰炸机队，运筹帷幄决胜千里！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/ec429/harris/releases/download/0.4.1/harris-0.4.1.w32.zip",
+          "publishedAt": "2015-09-01T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "harris.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.freeablo",
+      "name": "Freeablo",
+      "author": "wheybags",
+      "author_url": "https://github.com/wheybags",
+      "type": "singleplayer",
+      "summary": "暗黑破坏神 I 开源引擎复刻 — 需要原版 Diablo 数据文件，重温经典暗黑玩法！",
+      "tags": [
+        "RPG",
+        "ARPG",
+        "暗黑",
+        "经典"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "0.4",
+      "versions": [
+        {
+          "version": "0.4",
+          "description": "暗黑破坏神 I 开源引擎复刻 — 需要原版 Diablo 数据文件，重温经典暗黑玩法！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/wheybags/freeablo/releases/download/v0.4/freeablo_v0.4_windows.zip",
+          "publishedAt": "2018-06-15T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "freeablo.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.7kaa",
+      "name": "Seven Kingdoms: Ancient Adversaries",
+      "author": "the3dfxdude & community",
+      "author_url": "https://github.com/the3dfxdude",
+      "type": "singleplayer",
+      "summary": "经典 RTS 策略游戏开源复刻 — 建造王国、发展经济、外交与征服，支持多人在线对战！",
+      "tags": [
+        "RTS",
+        "策略",
+        "历史",
+        "经典",
+        "多人"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "2.15.5",
+      "versions": [
+        {
+          "version": "2.15.5",
+          "description": "经典 RTS 七王国 — 建造城堡、训练军队、贸易外交、征服天下！2009 年开源，持续活跃更新。",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/the3dfxdude/7kaa/releases/download/v2.15.5/7kaa-install-win32-2.15.5.exe",
+          "publishedAt": "2022-07-15T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "7kaa.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.edgar",
+      "name": "The Legend of Edgar",
+      "author": "Richard Sweeney",
+      "author_url": "https://github.com/riksweeney",
+      "type": "singleplayer",
+      "summary": "经典 2D 平台冒险 — 在奇幻世界中探索、战斗、解谜，寻找被绑架的父亲！",
+      "tags": [
+        "平台",
+        "冒险",
+        "动作",
+        "奇幻"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "1.38",
+      "versions": [
+        {
+          "version": "1.38",
+          "description": "2D 平台冒险 — 操控 Edgar 穿越地牢、击败怪物、收集道具，揭开王国背后的阴谋！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/riksweeney/edgar/releases/download/1.38/edgar-1.38-1.installer64.exe",
+          "publishedAt": "2024-05-15T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "edgar.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.nethack",
+      "name": "NetHack",
+      "author": "The NetHack DevTeam",
+      "author_url": "https://github.com/NetHack",
+      "type": "singleplayer",
+      "summary": "史上最经典的 Roguelike 地牢探索 — 深入地下城寻找 Yendor 护符，献给神祇以求不朽！",
+      "tags": [
+        "Roguelike",
+        "地牢",
+        "经典",
+        "RPG",
+        "回合制"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "3.6.6",
+      "versions": [
+        {
+          "version": "3.6.6",
+          "description": "传世 Roguelike 经典 — 1987 年诞生至今，无尽的地牢深度、上千种物品与怪物，硬核策略回合制冒险！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/NetHack/NetHack/releases/download/NetHack-3.6.6_Released/NetHack-3.6.6_Released.x86.zip",
+          "publishedAt": "2020-03-08T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "NetHack.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    }
   ]
 }
