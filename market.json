@@ -308,37 +308,6 @@
       ]
     },
     {
-      "id": "com.bzgr.unvanquished",
-      "name": "Unvanquished",
-      "author": "Unvanquished Team",
-      "author_url": "https://github.com/Unvanquished",
-      "type": "singleplayer",
-      "summary": "科幻题材 FPS + RTS 混合 — 人类与外星虫族对决，建造基地、升级科技、团队竞技！",
-      "tags": [
-        "FPS",
-        "RTS",
-        "科幻",
-        "多人",
-        "团队"
-      ],
-      "featured": true,
-      "visibility": "public",
-      "latestVersion": "0.56.2",
-      "versions": [
-        {
-          "version": "0.56.2",
-          "description": "科幻题材 FPS + RTS 混合 — 人类与外星虫族对决，建造基地、升级科技、团队竞技！",
-          "platformVersion": ">=2.1.5",
-          "downloadUrl": "https://github.com/Unvanquished/Unvanquished/releases/download/v0.56.2/unvanquished_0.56.2.zip",
-          "publishedAt": "2025-09-15T00:00:00.000Z",
-          "gameManifest": {
-            "entry": "unvanquished.exe",
-            "type": "singleplayer"
-          }
-        }
-      ]
-    },
-    {
       "id": "com.bzgr.angband",
       "name": "Angband",
       "author": "Angband Development Team",
@@ -576,7 +545,7 @@
           "downloadUrl": "https://github.com/Warzone2100/warzone2100/releases/download/4.7.0/warzone2100_win_x64_archive.zip",
           "publishedAt": "2025-12-15T00:00:00.000Z",
           "gameManifest": {
-            "entry": "warzone2100.exe",
+            "entry": "bin/warzone2100.exe",
             "type": "singleplayer"
           }
         }
