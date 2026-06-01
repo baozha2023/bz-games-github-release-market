@@ -147,7 +147,7 @@
           "version": "1.6.1",
           "description": "2D 车辆碰撞破坏游戏 — 类似经典 Destruction Derby，驾驶改装车辆在赛场上激烈碰撞！",
           "platformVersion": ">=2.1.5",
-          "downloadUrl": "https://github.com/petarov/savagewheels/releases/download/v1.6.1/savagewheels-1.6.1-Windows-x86.zip",
+          "downloadUrl": "https://github.com/kenamick/savagewheels/releases/download/1.6.1/savagewheels-1.6.1-Windows-x86.zip",
           "publishedAt": "2019-05-20T00:00:00.000Z",
           "gameManifest": {
             "entry": "savagewheels.exe",
@@ -301,7 +301,7 @@
           "downloadUrl": "https://github.com/Turtle-Arena/turtle-arena-code/releases/download/release-0.7/turtlearena-0.7-windows.zip",
           "publishedAt": "2013-12-15T00:00:00.000Z",
           "gameManifest": {
-            "entry": "turtlearena.exe",
+            "entry": "spearmint_x86_64.exe",
             "type": "singleplayer"
           }
         }
@@ -423,7 +423,7 @@
           "downloadUrl": "https://github.com/KOBUGE-Games/minilens/releases/download/v1.2/Minilens-1.2-Win64.zip",
           "publishedAt": "2016-08-01T00:00:00.000Z",
           "gameManifest": {
-            "entry": "minilens.exe",
+            "entry": "Minilens.win64.exe",
             "type": "singleplayer"
           }
         }
@@ -453,7 +453,7 @@
           "downloadUrl": "https://github.com/DusteDdk/Wizznic/releases/download/1.1/Wizznic_win_build_400.zip",
           "publishedAt": "2020-07-01T00:00:00.000Z",
           "gameManifest": {
-            "entry": "Wizznic.exe",
+            "entry": "wizznic.exe",
             "type": "singleplayer"
           }
         }
