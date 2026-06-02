@@ -49,7 +49,7 @@ asset
 
 本仓库中所有游戏版权归原作者所有，本仓库仅提供下载索引和平台适配配置。
 
-## 已有游戏（22 款）
+## 已有游戏（23 款）
 
 ### 射击 / 街机
 
@@ -92,6 +92,7 @@ asset
 | 游戏名称            | 版本       | 作者                   | 仓库地址                                                                          |
 |-----------------|----------|----------------------|-------------------------------------------------------------------------------|
 | Harris          | 0.4.1    | ec429                | [ec429/harris](https://github.com/ec429/harris)                               |
+| Unciv           | 4.20.10  | Yair Morgenstern     | [yairm210/Unciv](https://github.com/yairm210/Unciv)                           |
 | Warzone 2100    | 4.7.0    | Warzone 2100 Project | [Warzone2100/warzone2100](https://github.com/Warzone2100/warzone2100)         |
 
 ### 平台 / 动作

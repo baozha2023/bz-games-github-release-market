@@ -640,6 +640,38 @@
           }
         }
       ]
+    },
+    {
+      "id": "com.bzgr.unciv",
+      "name": "Unciv",
+      "author": "Yair Morgenstern",
+      "author_url": "https://github.com/yairm210",
+      "type": "singleplayer",
+      "summary": "开源文明类 4X 策略游戏 — 回合制建城、科技发展、军事征服、外交博弈，从远古走向未来！",
+      "tags": [
+        "策略",
+        "4X",
+        "回合制",
+        "文明",
+        "历史"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "4.20.10",
+      "versions": [
+        {
+          "version": "4.20.10",
+          "description": "开源文明类策略游戏神作 — 类似 Sid Meier's Civilization，回合制 4X 策略，科研树、城市建设、军事征服、外交谈判一应俱全！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/yairm210/Unciv/releases/download/4.20.10/Unciv-Windows64.zip",
+          "publishedAt": "2026-05-31T13:16:00.000Z",
+          "gameManifest": {
+            "entry": "Unciv.exe",
+            "type": "singleplayer",
+            "icon": "Unciv.ico"
+          }
+        }
+      ]
     }
   ]
 }
