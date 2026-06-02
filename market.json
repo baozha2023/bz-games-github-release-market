@@ -80,7 +80,7 @@
         "像素",
         "多人"
       ],
-      "featured": true,
+      "featured": false,
       "visibility": "public",
       "latestVersion": "2.4.0",
       "versions": [
@@ -110,7 +110,7 @@
         "多人",
         "物理"
       ],
-      "featured": true,
+      "featured": false,
       "visibility": "public",
       "latestVersion": "0.58.0",
       "versions": [
@@ -169,7 +169,7 @@
         "东方",
         "音乐"
       ],
-      "featured": true,
+      "featured": false,
       "visibility": "public",
       "latestVersion": "1.4.4",
       "versions": [
@@ -199,7 +199,7 @@
         "多人",
         "竞技"
       ],
-      "featured": true,
+      "featured": false,
       "visibility": "public",
       "latestVersion": "0.7.5",
       "versions": [
@@ -229,7 +229,7 @@
         "射击",
         "动作"
       ],
-      "featured": true,
+      "featured": false,
       "visibility": "public",
       "latestVersion": "0.7.5",
       "versions": [
@@ -260,7 +260,7 @@
         "建造",
         "多人"
       ],
-      "featured": true,
+      "featured": false,
       "visibility": "public",
       "latestVersion": "0.1.3",
       "versions": [
@@ -321,7 +321,7 @@
         "回合制",
         "经典"
       ],
-      "featured": true,
+      "featured": false,
       "visibility": "public",
       "latestVersion": "4.2.6",
       "versions": [
@@ -534,7 +534,7 @@
         "科幻",
         "多人"
       ],
-      "featured": true,
+      "featured": false,
       "visibility": "public",
       "latestVersion": "4.7.0",
       "versions": [
@@ -564,7 +564,7 @@
         "经典",
         "冒险"
       ],
-      "featured": true,
+      "featured": false,
       "visibility": "public",
       "latestVersion": "0.7.0",
       "versions": [
