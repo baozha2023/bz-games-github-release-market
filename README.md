@@ -49,7 +49,7 @@ asset
 
 本仓库中所有游戏版权归原作者所有，本仓库仅提供下载索引和平台适配配置。
 
-## 已有游戏（23 款）
+## 已有游戏（24 款）
 
 ### 射击 / 街机
 
@@ -83,6 +83,7 @@ asset
 
 | 游戏名称              | 版本           | 作者                | 仓库地址                                                                  |
 |-------------------|--------------|-------------------|-----------------------------------------------------------------------|
+| A/B Street        | 0.3.49       | Dustin Carlino    | [a-b-street/abstreet](https://github.com/a-b-street/abstreet)         |
 | Endless Sky       | 0.10.16      | Michael Zahniser  | [endless-sky/endless-sky](https://github.com/endless-sky/endless-sky) |
 | Freeminer         | 0.4.14.8     | Freeminer Team    | [freeminer/freeminer](https://github.com/freeminer/freeminer)         |
 | Luanti (Minetest) | 5.16.1       | Luanti Team       | [minetest/minetest](https://github.com/minetest/minetest)             |

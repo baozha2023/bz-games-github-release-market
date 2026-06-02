@@ -672,6 +672,37 @@
           }
         }
       ]
+    },
+    {
+      "id": "com.bzgr.abstreet",
+      "name": "A/B Street",
+      "author": "Dustin Carlino & contributors",
+      "author_url": "https://github.com/a-b-street",
+      "type": "singleplayer",
+      "summary": "开源交通模拟与城市规划 — 基于真实 OpenStreetMap 地图，模拟交通、改造道路、规划自行车网络！",
+      "tags": [
+        "模拟",
+        "交通",
+        "城市规划",
+        "沙盒",
+        "教育"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "0.3.49",
+      "versions": [
+        {
+          "version": "0.3.49",
+          "description": "开源交通模拟与城市规划工具 — 在真实城市地图上编辑交通、模拟车流、规划自行车道和步行街区，让城市对行人更友好！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/a-b-street/abstreet/releases/download/v0.3.49/abstreet_windows_v0_3_49.zip",
+          "publishedAt": "2024-01-09T22:12:00.000Z",
+          "gameManifest": {
+            "entry": "play_abstreet.bat",
+            "type": "singleplayer"
+          }
+        }
+      ]
     }
   ]
 }
