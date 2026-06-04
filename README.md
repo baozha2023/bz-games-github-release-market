@@ -49,7 +49,7 @@ asset
 
 本仓库中所有游戏版权归原作者所有，本仓库仅提供下载索引和平台适配配置。
 
-## 已有游戏（24 款）
+## 已有游戏（27 款）
 
 ### 射击 / 街机
 
@@ -72,6 +72,7 @@ asset
 | Cataclysm: Dark Days Ahead | 2026-05-30 | CleverRaven  | [CleverRaven/Cataclysm-DDA](https://github.com/CleverRaven/Cataclysm-DDA)             |
 | Dungeon Crawl Stone Soup   | 0.34.1     | DCSS Team    | [crawl/crawl](https://github.com/crawl/crawl)                                         |
 | Shattered Pixel Dungeon    | 3.3.8      | Evan         | [00-Evan/shattered-pixel-dungeon](https://github.com/00-Evan/shattered-pixel-dungeon) |
+| Veloren                    | 2025.9.13  | Veloren Team | [veloren/veloren](https://github.com/veloren/veloren)                               |
 
 ### 赛车 / 竞速
 
@@ -87,6 +88,7 @@ asset
 | Endless Sky       | 0.10.16      | Michael Zahniser  | [endless-sky/endless-sky](https://github.com/endless-sky/endless-sky) |
 | Freeminer         | 0.4.14.8     | Freeminer Team    | [freeminer/freeminer](https://github.com/freeminer/freeminer)         |
 | Luanti (Minetest) | 5.16.1       | Luanti Team       | [minetest/minetest](https://github.com/minetest/minetest)             |
+| Thrive          | 1.1.0       | Revolutionary Games | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) |
 
 ### 策略 / RTS
 
@@ -109,6 +111,7 @@ asset
 | 游戏名称    | 版本    | 作者           | 仓库地址                                                    |
 |---------|-------|--------------|---------------------------------------------------------|
 | Wizznic | 1.1   | DusteDdk     | [DusteDdk/Wizznic](https://github.com/DusteDdk/Wizznic) |
+| Friday Night Funkin' | 0.8.4 | FunkinCrew | [FunkinCrew/Funkin](https://github.com/FunkinCrew/Funkin) |
 
 ---
 
