@@ -49,7 +49,7 @@ asset
 
 本仓库中所有游戏版权归原作者所有，本仓库仅提供下载索引和平台适配配置。
 
-## 已有游戏（27 款）
+## 已有游戏（29 款）
 
 ### 射击 / 街机
 
@@ -63,6 +63,7 @@ asset
 | Teeworlds    | 0.7.5    | Teeworlds Team    | [teeworlds/teeworlds](https://github.com/teeworlds/teeworlds)                       |
 | Unvanquished | 0.56.2   | Unvanquished Team | [Unvanquished/Unvanquished](https://github.com/Unvanquished/Unvanquished)           |
 | Witch Blast  | 0.7.5    | Cirrus Minor      | [Cirrus-Minor/witchblast](https://github.com/Cirrus-Minor/witchblast)               |
+| DungeonRush  | 1.1-beta | yujqiao           | [yujqiao/DungeonRush](https://github.com/yujqiao/DungeonRush)                       |
 
 ### Roguelike / RPG
 
@@ -89,6 +90,7 @@ asset
 | Freeminer         | 0.4.14.8     | Freeminer Team    | [freeminer/freeminer](https://github.com/freeminer/freeminer)         |
 | Luanti (Minetest) | 5.16.1       | Luanti Team       | [minetest/minetest](https://github.com/minetest/minetest)             |
 | Thrive          | 1.1.0       | Revolutionary Games | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) |
+| Cubyz           | 0.2.0       | PixelGuys          | [PixelGuys/Cubyz](https://github.com/PixelGuys/Cubyz)                       |
 
 ### 策略 / RTS
 

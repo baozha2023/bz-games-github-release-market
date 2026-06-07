@@ -770,6 +770,66 @@
           }
         }
       ]
+    },
+    {
+      "id": "com.bzgr.cubyz",
+      "name": "Cubyz",
+      "author": "PixelGuys",
+      "author_url": "https://github.com/PixelGuys",
+      "type": "singleplayer",
+      "summary": "开源 3D 体素沙盒游戏 — 受 Minecraft 启发，支持无限视距 LOD、程序化地形生成、多人联机，用 Zig 编写的高性能方块世界！",
+      "tags": [
+        "沙盒",
+        "体素",
+        "建造",
+        "冒险",
+        "多人",
+        "开放世界"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "0.2.0",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "description": "空洞生成改进、天空岛屿、去中心化认证、SDF 地形生成、新生物群系 — 超远视距体素沙盒，支持单人创造与多人联机！",
+          "platformVersion": ">=2.1.6",
+          "downloadUrl": "https://github.com/PixelGuys/Cubyz/releases/download/0.2.0/Windows-x86_64.zip",
+          "publishedAt": "2026-04-03T08:19:00.000Z",
+          "gameManifest": {
+            "entry": "Cubyz.exe"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bzgr.dungeonrush",
+      "name": "DungeonRush",
+      "author": "yujqiao",
+      "author_url": "https://github.com/yujqiao",
+      "type": "singleplayer",
+      "summary": "贪吃蛇风格地牢冒险 — 用纯 C + SDL2 编写的快节奏街机游戏，支持局域网多人联机对战！",
+      "tags": [
+        "街机",
+        "贪吃蛇",
+        "地牢",
+        "像素",
+        "多人"
+      ],
+      "visibility": "public",
+      "latestVersion": "1.1.0",
+      "versions": [
+        {
+          "version": "1.1.0",
+          "description": "贪吃蛇风格地牢冒险 — 快节奏街机对战，支持局域网多人联机，纯 C + SDL2 经典之作！",
+          "platformVersion": ">=2.1.6",
+          "downloadUrl": "https://github.com/yujqiao/DungeonRush/releases/download/v1.1-beta/DungeonRush-v1.1-beta-Windows-x86_64.zip",
+          "publishedAt": "2020-11-21T13:26:37.000Z",
+          "gameManifest": {
+            "entry": "dungeon_rush.exe"
+          }
+        }
+      ]
     }
   ]
 }
