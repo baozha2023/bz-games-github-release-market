@@ -49,7 +49,7 @@ asset
 
 本仓库中所有游戏版权归原作者所有，本仓库仅提供下载索引和平台适配配置。
 
-## 已有游戏（29 款）
+## 已有游戏（30 款）
 
 ### 射击 / 街机
 
@@ -91,6 +91,7 @@ asset
 | Luanti (Minetest) | 5.16.1       | Luanti Team       | [minetest/minetest](https://github.com/minetest/minetest)             |
 | Thrive          | 1.1.0       | Revolutionary Games | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) |
 | Cubyz           | 0.2.0       | PixelGuys          | [PixelGuys/Cubyz](https://github.com/PixelGuys/Cubyz)                       |
+| Cultivation World Simulator | 3.5.0 | 4thfever | [4thfever/cultivation-world-simulator](https://github.com/4thfever/cultivation-world-simulator) |
 
 ### 策略 / RTS
 

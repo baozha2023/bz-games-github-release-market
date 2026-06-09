@@ -830,6 +830,36 @@
           }
         }
       ]
+    },
+    {
+      "id": "com.bzgr.cultivationsim",
+      "name": "Cultivation World Simulator",
+      "author": "4thfever",
+      "author_url": "https://github.com/4thfever",
+      "type": "singleplayer",
+      "summary": "修真世界模拟器 — 开源 AI 修仙模拟，管理宗门、培养弟子、探索秘境，体验修真世界的宏大与玄妙！",
+      "tags": [
+        "模拟",
+        "修仙",
+        "策略",
+        "RPG",
+        "AI"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "3.5.0",
+      "versions": [
+        {
+          "version": "3.5.0",
+          "description": "AI 修仙世界模拟器 — 管理宗门、培养弟子、探索秘境，体验修真世界的宏大与玄妙！",
+          "platformVersion": ">=2.1.6",
+          "downloadUrl": "https://github.com/4thfever/cultivation-world-simulator/releases/download/v3.5.0/AI_Cultivation_World_Simulator_v3.5.0.zip",
+          "publishedAt": "2026-06-09T08:00:00.000Z",
+          "gameManifest": {
+            "entry": "AICultivationSimulator_WebMode.exe"
+          }
+        }
+      ]
     }
   ]
 }
