@@ -92,6 +92,7 @@ asset
 | Thrive          | 1.1.0       | Revolutionary Games | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) |
 | Cubyz           | 0.2.0       | PixelGuys          | [PixelGuys/Cubyz](https://github.com/PixelGuys/Cubyz)                       |
 | Cultivation World Simulator | 3.5.0 | 4thfever | [4thfever/cultivation-world-simulator](https://github.com/4thfever/cultivation-world-simulator) |
+| Egregoria       | 0.6.2       | Uriopass           | [Uriopass/Egregoria](https://github.com/Uriopass/Egregoria)                       |
 
 ### 策略 / RTS
 

@@ -860,6 +860,36 @@
           }
         }
       ]
+    },
+    {
+      "id": "com.bzgr.egregoria",
+      "name": "Egregoria",
+      "author": "Uriopass",
+      "author_url": "https://github.com/Uriopass",
+      "type": "singleplayer",
+      "summary": "开源城市交通模拟 — 用 Rust 编写的高性能城市模拟器，自由建造道路网、管理交通流量、见证城市生长！",
+      "tags": [
+        "模拟",
+        "城市",
+        "交通",
+        "沙盒",
+        "建造"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "0.6.2",
+      "versions": [
+        {
+          "version": "0.6.2",
+          "description": "开源城市交通模拟 — 自由建造道路网、管理交通流量、见证城市生长！",
+          "platformVersion": ">=2.1.6",
+          "downloadUrl": "https://github.com/Uriopass/Egregoria/releases/download/v0.6.2/windows.zip",
+          "publishedAt": "2026-06-09T08:00:00.000Z",
+          "gameManifest": {
+            "entry": "native_app.exe"
+          }
+        }
+      ]
     }
   ]
 }
